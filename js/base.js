@@ -17,6 +17,9 @@ var myVuew = new Vue({
 
             var satuan = Math.floor(tot / (1000*60*60*24*365));
             console.log(satuan);
+            
+
+            //age
 
             this.date_time = satuan
         }
