@@ -68,6 +68,11 @@ h2,h1, a, p, .detail-title {
     align-items: center;
 }
 
+div > div > a {
+    font-size: 50px;
+    margin: 0 10px 0 10px;
+}
+
 /* masih acak acakan */
 .navbar-parent {
     display: -webkit-flex;
@@ -108,12 +113,6 @@ h2,h1, a, p, .detail-title {
     flex-direction: row;
 }
 
-.image-icon {
-    margin-left: 10px
-}
-.image-icon:hover {
-    color: red
-}
 
 .bounc-title {
     margin-top: 50px;
@@ -178,4 +177,30 @@ h2,h1, a, p, .detail-title {
     padding: 1rem 1.5rem;
     text-align: center;
 
+}
+
+
+
+@media only screen and (max-width:400px){
+    .navbar-parent{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center
+    }
+    
+    .intro-name{
+        font-size: 37px;
+        font-weight: bold;
+    }
+    .intro-profesi {
+        font-size: 15px;
+    }
+
+    .project {
+        flex-direction: column;
+        align-items: center
+    }
+    div > div > a{
+        font-size: 40px
+    }
 }
