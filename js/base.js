@@ -80,14 +80,6 @@ var myVuew = new Vue({
             setInterval(()=>  this.count(), 1000);
         },
         count:function(){
-            // var data = new Date();
-            // var myAge = new Date(1993, (1 - 1), 13);
-            
-            // var tot = data - myAge;
-            // console.log(myAge.getTime());
-
-            // var satuan = Math.floor(tot / (1000*60*60*24*365));
-            // console.log(tot / (1000*60*60*24*365));
 
             var dateData = new Date();
             var myAge = new Date("Jan, 13, 1993");
