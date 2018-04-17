@@ -68,8 +68,6 @@ function inMiliSecond(dateData, myAge){
 }
 
 
-
-
 var myVuew = new Vue({
     el:'#test',
     data:{

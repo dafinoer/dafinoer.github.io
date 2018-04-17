@@ -68,6 +68,11 @@ h2,h1, a, p, .detail-title {
     align-items: center;
 }
 
+/* animation */
+@keyframes panahMovve {
+
+}
+
 div > div > a {
     font-size: 50px;
     margin: 0 10px 0 10px;
@@ -157,6 +162,7 @@ div > div > a {
     margin: 1rem;
     background: #EF5350;
     color: white;
+    box-shadow: 8px 8px 5px #BDBDBD
 
 }
 
