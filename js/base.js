@@ -23,9 +23,9 @@ function inMonth(dateData, myAge){
     var getMonthNow = dateData.getUTCMonth();
     var getMonthBirdth = myAge.getMonth();
 
-    var tot = (getMonthNow+12*getYearNow) - (getMonthBirdth+12*getYearBirth);
+    // var tot = (getMonthNow+12*getYearNow) - (getMonthBirdth+12*getYearBirth);
 
-    // var tot = getMonthNow - getMonthBirdth;
+    var tot = getMonthNow - getMonthBirdth;
 
     return tot
 }
@@ -84,12 +84,7 @@ var myVuew = new Vue({
 
 
             var total = inYear(dateData, myAge) + " Tahun " 
-            +inMonth(dateData, myAge)+ " Bulan "
-            + inWeek(dateData, myAge)+ " Minggu " 
-            + inDays(dateData, myAge)+ " Hari "
-            + inHour(dateData, myAge)+ " Jam " 
-            + inSecond(dateData, myAge)+ " Menit "
-            + inMiliSecond(dateData, myAge)+ " Detik";
+            +inMonth(dateData, myAge)+ " Bulan ";
 
             this.date_time = total
         }
