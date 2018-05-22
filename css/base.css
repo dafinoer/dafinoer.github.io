@@ -19,7 +19,16 @@ h2,h1, a, p, .detail-title {
     display: flex;
     flex: 0 1 auto;
     flex-direction: column;
-    font-size: 20px
+    font-size: 20px;
+
+    /* full width */
+    /* position: relative;
+    background-color: black;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw; */
 }
 
 .about-intro{
@@ -43,7 +52,7 @@ h2,h1, a, p, .detail-title {
 
 .panah-about > i{
     position: relative;
-    font-size: 50px;
+    font-size: 2rem;
     animation: panahGerak 2s infinite
 }
 
@@ -96,7 +105,7 @@ h2,h1, a, p, .detail-title {
 
 .panah-landing-page > i {
     position: relative;
-    font-size: 50px;
+    font-size: 2rem;
     animation: panahGerak 2s infinite
 }
 
