@@ -1,0 +1,61 @@
+.text_line {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 0 100%;
+    margin: 10% 0 0 0;
+}
+
+.box-terminal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.toolbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    background:#E0E0E0;
+    width: 70%;
+    border-radius: 10px 10px 0 0 ;
+    box-shadow: rgba(0,0,0,.3) 5px 5px 30px;
+}
+
+.title {
+    font-size: 0.75em;
+}
+
+.text-room {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px 0 10px 0;
+    background:black;
+    width: 70%;
+    height: 50vh;
+    border-radius: 0 0 5px 5px ;
+    box-shadow: rgba(0,0,0,.3) 5px 5px 30px;
+    
+}
+
+.text-terminal, .typejs, .username-name {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0 2px 0 2px;
+    color: #ff00df
+}
+.username-name{
+    padding: 0 0 0 0;
+}
+.typejs{
+    color: white
+}
+
+.text-typing {
+    color: white;
+    font-size: 1.1rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
