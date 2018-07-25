@@ -38,7 +38,7 @@ h2,h1, a, p, .detail-title {
     align-items: center;
 }
 
-.panah-about > i{
+.panah-about > a{
     position: relative;
     font-size: 2rem;
     animation: panahGerak 2s infinite
