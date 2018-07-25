@@ -5,7 +5,7 @@ var typed = new Typed('#holla', {
     typeSpeed: 90,
     startDelay: 10,
     loop:true,
-    backSpeed:0,
+    backSpeed:90,
     showCursor:true,
     cursorChar:"▋",
     preStringTyped: function(pos, self) {
@@ -14,6 +14,20 @@ var typed = new Typed('#holla', {
      onStringTyped: function(arrayPos, self){
         console.log("onStringTyped \n"+ self.strings);
      },
-     
+})
 
+var subTitle = new Typed('#sub-title', {
+    strings:['Software Developer', "Outdoor Life Enthusias", "Software Developer | Outdoor Life Enthusias"],
+    typeSpeed: 90,
+    startDelay: 10,
+    loop:false,
+    backSpeed:90,
+    showCursor:true,
+    cursorChar:"▋",
+    preStringTyped: function(pos, self) {
+        console.log("preStringType" );
+     },
+     onStringTyped: function(arrayPos, self){
+        console.log("onStringTyped \n"+ self.strings);
+     },
 })

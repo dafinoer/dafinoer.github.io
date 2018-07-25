@@ -18,28 +18,28 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.8/typed.min.js "></script>
 
 	<link rel="stylesheet" type="text/css" href="css/text_editor.css">
-	
+	<<link rel="stylesheet" href="css/hover-min.css">
+
 </head>
 <body>
 	<nav class="navbar-parent">
-		<a href="https://dafinoer.github.io/note/" class="navbar-item">Note</a>
-		<a data-scroll href="#aboutlink" class="navbar-item" >About</a>
-		<a data-scroll href="#projects" class="navbar-item">Project</a>
+		<a href="https://dafinoer.github.io/note/" class=" hvr-float navbar-item">Note</a>
+		<a data-scroll href="#aboutlink" class=" hvr-float navbar-item" >About</a>
+		<a data-scroll href="#projects" class=" hvr-float navbar-item">Project</a>
 	</nav>
 
 	<div class="landing-page">
 		<div class="intro-page">
 			<div class="intro-name">Muhammad Dafi</div>
-			<div class="intro-profesi">Software Developer</div>
+			<div class="intro-profesi"><span id="sub-title"></span></div>
 			<div class="icon-row">
-				<a href="#" class="image-icon" ><i class="fab fa-linkedin" style="background:white; color:#EF5350"></i></a>
-				<a href="#" class="image-icon"><i class="fab fa-github " style="background:white; color:#EF5350"></i></a>
-				<a href="#" class="image-icon"><i class="far fa-envelope " style="background:white; color:#EF5350"></i></a>
+				<a href="#" class="hvr-grow-rotate image-icon" ><i class="fab fa-linkedin" style="background:white; color:#EF5350"></i></a>
+				<a href="#" class="hvr-grow-rotate image-icon"><i class="fab fa-github " style="background:white; color:#EF5350"></i></a>
+				<a href="#" class="hvr-grow-rotate image-icon"><i class="far fa-envelope " style="background:white; color:#EF5350"></i></a>
 			</div>
 		</div>
 		<div class="panah-landing-page">
-			
-			<i class="material-icons" class="panah">keyboard_arrow_down</i>
+			<a href="#aboutlink" style="text-decoration:none; color:black" ><i class="material-icons" class="panah" style="white-space: pre-line">keyboard_arrow_down</i><span style="font-size:1rem;">scroll down</span></a>
 		</div>
 
 	</div>
@@ -49,7 +49,7 @@
 			<div class="content-grid">
 				<h1>About</h1>
 				<p class="intro-profesi">
-					Hallo nama saya Muhammad Dafi, usia saya 
+					Hallo nama saya Muhammad Dafi, usia saya
 					<span id="test" >{{tanggal}}</span>
 				</p>
 
@@ -59,11 +59,11 @@
 					tentang cerita perjalanan traveling, coding dan ilmu bermanfaat lainnya yg bisa saya sebar.
 				</p>
 			</div>
-			
+
 		</div>
 
 		<div class="panah-about">
-			<i class="material-icons">keyboard_arrow_down</i>	
+			<i class="material-icons">keyboard_arrow_down</i>
 		</div>
 
 	</div>
@@ -82,7 +82,7 @@
 						<i class="fab fa-python fa-2x"></i>
 					</div>
 					<div class="link-text">
-						<a href="https://www.jelaja.com/">Detail</a>
+						<a href="https://www.jelaja.com/" class="hvr-shrink">Detail</a>
 					</div>
 
 				</div>
@@ -96,7 +96,7 @@
 						<i class="fab fa-python fa-2x"></i>
 					</div>
 					<div class="link-text">
-						<a href="https://compass.jelaja.com">Detail</a>
+						<a href="https://compass.jelaja.com" class="hvr-shrink">Detail</a>
 					</div>
 				</div>
 				<div class="kotak">
@@ -108,7 +108,7 @@
 						<i class="fab fa-vuejs fa-2x"></i>
 					</div>
 					<div class="link-text">
-						<a href="#">Detail</a>
+						<a href="#" class="hvr-shrink">Detail</a>
 					</div>
 				</div>
 				<div class="kotak">
@@ -120,13 +120,26 @@
 						<i class="fab fa-vuejs fa-2x"></i>
 					</div>
 					<div class="link-text">
-						<a href="https://dafinoer.github.io/pomodor-vue/">Detail</a>
+						<a href="https://dafinoer.github.io/pomodor-vue/" class="hvr-shrink">Detail</a>
 					</div>
 				</div>
+
+				<div class="kotak">
+					<div class="detail-title">Apps Kriminalitas.com</div>
+					<div class="detail-desc"><p>News About Crime around the world using java native </p></div>
+					<div class="icon">
+						<i class="fab fa-android fa-3x"></i>
+					</div>
+					<div class="link-text">
+						<a href="https://play.google.com/store/apps/details?id=com.kricom.kricom" class="hvr-shrink">Detail</a>
+					</div>
+				</div>
+
+
 			</div>
 		</div>
 		<div class="panah-about">
-			<i class="material-icons">keyboard_arrow_down</i>	
+			<i class="material-icons">keyboard_arrow_down</i>
 		</div>
 	</div>
 
@@ -134,7 +147,7 @@
 
 	<div class="textline_wrap" id="text_line">
 		<div class="content-grid">
-			
+
 
 			<div class="text_line">
 				<div class="box-terminal">
@@ -142,7 +155,7 @@
 						<div class="title">dafinoer.github.io~bash</div>
 					</div>
 					<div class="text-room">
-						<p class="text-terminal">user@local:~$ <span class="typejs" id="holla" style="white-space:pre;"></span></p> 
+						<p class="text-terminal">user@local:~$ <span class="typejs" id="holla" style="white-space:pre;"></span></p>
 					</div>
 				</div>
 			</div>
@@ -155,7 +168,7 @@
 	<script src="js/base.js"></script>
 	<script src="js/modal.js"></script>
 	<script src="js/typing.js"></script>
-	
+
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-102075044-1"></script>
 	<script>
