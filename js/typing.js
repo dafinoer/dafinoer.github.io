@@ -16,7 +16,7 @@ var typed = new Typed('#holla', {
 })
 
 var subTitle = new Typed('#sub-title', {
-    strings:['Software Developer', "Outdoor Life Enthusiast", "Software Developer | Outdoor Life Enthusiast"],
+    strings:['Software Developer', "Outdoor Life", "Software Developer | Outdoor Life"],
     typeSpeed: 90,
     startDelay: 10,
     loop:false,
